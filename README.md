@@ -1,4 +1,4 @@
 # Run application
 
 
-You can open index.html in your browser
+Open 'index.html' in your browser to use an app.
