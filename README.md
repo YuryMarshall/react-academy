@@ -1,4 +1,4 @@
-п# Run application
+# Run application
 
 To run ruby script use following command
 
