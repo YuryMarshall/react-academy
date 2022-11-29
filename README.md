@@ -1,9 +1,4 @@
 # Run application
 
-To run ruby script use following command
 
-```
-$ ruby hello.rb
-```
-
-and you can also open index.html in your browser
+Open 'index.html' in your browser to use an app.
