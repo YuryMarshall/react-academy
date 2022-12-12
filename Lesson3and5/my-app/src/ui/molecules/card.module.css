@@ -1,0 +1,6 @@
+.card {
+  @apply h-72 w-96 bg-user-green mr-16 box-border flex align-middle rounded-xl;
+}
+.text {
+  @apply p-4 m-5 border-user-pink border-solid border-4 rounded-lg border-opacity-50 text-user-black;
+}
