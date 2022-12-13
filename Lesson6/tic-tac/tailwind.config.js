@@ -5,6 +5,9 @@ module.exports = {
     fontFamily: {
       zen: ["Zen Dots"],
     },
+    boxShadow: {
+      "pink-shadow": "0px 0px 20px pink",
+    },
     extend: {},
   },
   plugins: [],

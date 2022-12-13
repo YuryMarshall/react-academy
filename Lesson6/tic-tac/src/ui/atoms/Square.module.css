@@ -1,6 +1,0 @@
-.square {
-  @apply w-24 h-24 bg-pink-400 mr-3 mb-3 rounded-md drop-shadow-lg hover:scale-110 ease-in-out duration-150 flex justify-center;
-}
-.text {
-  @apply font-zen text-6xl mb-auto mt-auto text-gray-900 opacity-80;
-}
