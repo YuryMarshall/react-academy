@@ -1,8 +1,13 @@
 import "./App.css";
 import React from "react";
+import Game from "./ui/organisms/Game.jsx";
 
 function App() {
-  return <h1 className="text-3xl font-bold underline w-min font-zen">Hello world!</h1>;
+  return (
+    <div>
+      <Game />
+    </div>
+  );
 }
 
 export default App;
