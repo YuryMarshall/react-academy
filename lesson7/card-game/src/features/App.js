@@ -1,10 +1,11 @@
 import "./App.css";
 import React from "react";
+import Header from "../ui/organisms/header/header.jsx";
 
 function App() {
   return (
     <div className="App">
-      <h1 className="bg-red-500 font-bebas text-4xl">Hello World!</h1>
+      <Header />
     </div>
   );
 }
