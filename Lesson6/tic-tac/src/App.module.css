@@ -3,7 +3,7 @@
 }
 .board {
   @apply p-2 bg-green-300 flex flex-wrap w-96 h-96 justify-center 
-  align-middle rounded-xl mr-10 mt-auto mb-auto pl-5 pt-6 border-4 border-gray-600 select-none;
+  align-middle rounded-xl mr-10 mt-auto mb-auto pl-5 pt-6 border-4 border-gray-600 select-nonegit;
 }
 .square {
   @apply w-24 h-24 bg-pink-400 mr-3 mb-3 rounded-md drop-shadow-lg hover:scale-110 ease-in-out duration-150 flex justify-center cursor-pointer;
