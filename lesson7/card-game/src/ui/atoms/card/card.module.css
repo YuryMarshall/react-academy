@@ -1,3 +1,28 @@
 .card {
-  @apply h-32 bg-lime-500 rounded-lg;
+  @apply h-32 bg-card-main bg-cover rounded-lg hover:scale-125;
+}
+
+.card1 {
+  @apply h-32 bg-makima-card bg-cover rounded-lg hover:scale-125;
+}
+.card2 {
+  @apply h-32 bg-reze-card bg-cover rounded-lg hover:scale-125;
+}
+.card3 {
+  @apply h-32 bg-power-card bg-cover rounded-lg hover:scale-125;
+}
+.card4 {
+  @apply h-32 bg-denji-card bg-cover rounded-lg hover:scale-125;
+}
+.card5 {
+  @apply h-32 bg-pochita-card bg-cover rounded-lg hover:scale-125;
+}
+.card6 {
+  @apply h-32 bg-himeno-card bg-cover rounded-lg hover:scale-125;
+}
+.card7 {
+  @apply h-32 bg-aki-card bg-cover rounded-lg hover:scale-125;
+}
+.card8 {
+  @apply h-32 bg-kobeni-card bg-cover rounded-lg hover:scale-125;
 }
