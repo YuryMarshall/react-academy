@@ -88,6 +88,7 @@ export default function Card(props) {
             RESTART
           </button>
         </div>
+        <p className={styles.sign}>Kalashnik Yury 2022</p>
       </div>
     );
   }
