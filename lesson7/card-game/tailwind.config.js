@@ -5,6 +5,9 @@ module.exports = {
     fontFamily: {
       bebas: ["Bebas Neue"],
     },
+    boxShadow: {
+      "custom-shadow": "0px 0px 20px black",
+    },
     extend: {
       backgroundImage: {
         "card-main": "url('/src/ui/atoms/card/backgrounds/main.jpg')",

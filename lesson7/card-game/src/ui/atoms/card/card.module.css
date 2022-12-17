@@ -1,28 +1,48 @@
-.card {
-  @apply h-32 bg-card-main bg-cover rounded-lg hover:scale-125 border-black border-solid border-4;
+.board {
+  @apply h-full grid grid-cols-4 grid-rows-4 p-5 gap-5  mb-10  bg-yellow-400 shadow-[inset_-2px_-2px_5px_rgba(0,0,0,0.6)];
 }
-
+.card {
+  @apply h-28 bg-card-main flex justify-center bg-cover rounded-lg hover:scale-125 border-black border-solid border-4 shadow-custom-shadow cursor-pointer;
+}
+.question {
+  @apply font-bebas text-7xl font-bold mt-auto mb-auto text-white text-opacity-70;
+}
+.nv {
+  @apply hidden;
+}
 .card1 {
-  @apply h-32 bg-makima-card bg-cover rounded-lg hover:scale-125 border-black border-solid border-4;
+  @apply h-28 bg-makima-card bg-cover rounded-lg hover:scale-125 border-black border-solid border-4 cursor-pointer;
 }
 .card2 {
-  @apply h-32 bg-reze-card bg-cover rounded-lg hover:scale-125 border-black border-solid border-4;
+  @apply h-28 bg-reze-card bg-cover rounded-lg hover:scale-125 border-black border-solid border-4 cursor-pointer;
 }
 .card3 {
-  @apply h-32 bg-power-card bg-cover rounded-lg hover:scale-125 border-black border-solid border-4;
+  @apply h-28 bg-power-card bg-cover rounded-lg hover:scale-125 border-black border-solid border-4 cursor-pointer;
 }
 .card4 {
-  @apply h-32 bg-denji-card bg-cover rounded-lg hover:scale-125 border-black border-solid border-4;
+  @apply h-28 bg-denji-card bg-cover rounded-lg hover:scale-125 border-black border-solid border-4 cursor-pointer;
 }
 .card5 {
-  @apply h-32 bg-pochita-card bg-cover rounded-lg hover:scale-125 border-black border-solid border-4;
+  @apply h-28 bg-pochita-card bg-cover rounded-lg hover:scale-125 border-black border-solid border-4 cursor-pointer;
 }
 .card6 {
-  @apply h-32 bg-himeno-card bg-cover rounded-lg hover:scale-125 border-black border-solid border-4;
+  @apply h-28 bg-himeno-card bg-cover rounded-lg hover:scale-125 border-black border-solid border-4 cursor-pointer;
 }
 .card7 {
-  @apply h-32 bg-aki-card bg-cover rounded-lg hover:scale-125 border-black border-solid border-4;
+  @apply h-28 bg-aki-card bg-cover rounded-lg hover:scale-125 border-black border-solid border-4 cursor-pointer;
 }
 .card8 {
-  @apply h-32 bg-kobeni-card bg-cover rounded-lg hover:scale-125 border-black border-solid border-4;
+  @apply h-28 bg-kobeni-card bg-cover rounded-lg hover:scale-125 border-black border-solid border-4 cursor-pointer;
+}
+.win {
+  @apply h-5/6 flex justify-center;
+}
+.score {
+  @apply bg-slate-600 w-fit p-2 font-bebas text-2xl text-white rounded-3xl mr-5 h-fit mt-auto mb-auto shadow-[inset_-2px_-2px_5px_rgba(0,0,0,0.6)] animate-bounce;
+}
+.restart {
+  @apply bg-yellow-400 w-fit p-2 font-bebas text-2xl  rounded-3xl mr-5 h-fit mt-auto mb-auto shadow-[inset_-2px_-2px_5px_rgba(0,0,0,0.6)] hover:scale-110 active:scale-100;
+}
+.controlls {
+  @apply flex justify-center;
 }

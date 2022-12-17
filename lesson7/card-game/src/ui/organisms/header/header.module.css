@@ -1,6 +1,6 @@
 .header {
-  @apply bg-slate-600 h-1/6 flex justify-center;
+  @apply bg-yellow-400 h-1/6 flex justify-center shadow-[inset_-2px_-2px_5px_rgba(0,0,0,0.6)];
 }
 .title {
-  @apply font-bebas text-5xl mt-auto mb-auto bg-orange-500 p-3 rounded-3xl;
+  @apply font-bebas text-5xl mt-auto mb-auto bg-orange-500 p-3 rounded-3xl shadow-[inset_-2px_-2px_5px_rgba(0,0,0,0.6)];
 }
