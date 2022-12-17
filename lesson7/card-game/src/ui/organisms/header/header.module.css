@@ -2,5 +2,5 @@
   @apply bg-slate-600 h-1/6 flex justify-center;
 }
 .title {
-  @apply font-bebas text-5xl mt-auto mb-auto;
+  @apply font-bebas text-5xl mt-auto mb-auto bg-orange-500 p-3 rounded-3xl;
 }

@@ -1,28 +1,28 @@
 .card {
-  @apply h-32 bg-card-main bg-cover rounded-lg hover:scale-125;
+  @apply h-32 bg-card-main bg-cover rounded-lg hover:scale-125 border-black border-solid border-4;
 }
 
 .card1 {
-  @apply h-32 bg-makima-card bg-cover rounded-lg hover:scale-125;
+  @apply h-32 bg-makima-card bg-cover rounded-lg hover:scale-125 border-black border-solid border-4;
 }
 .card2 {
-  @apply h-32 bg-reze-card bg-cover rounded-lg hover:scale-125;
+  @apply h-32 bg-reze-card bg-cover rounded-lg hover:scale-125 border-black border-solid border-4;
 }
 .card3 {
-  @apply h-32 bg-power-card bg-cover rounded-lg hover:scale-125;
+  @apply h-32 bg-power-card bg-cover rounded-lg hover:scale-125 border-black border-solid border-4;
 }
 .card4 {
-  @apply h-32 bg-denji-card bg-cover rounded-lg hover:scale-125;
+  @apply h-32 bg-denji-card bg-cover rounded-lg hover:scale-125 border-black border-solid border-4;
 }
 .card5 {
-  @apply h-32 bg-pochita-card bg-cover rounded-lg hover:scale-125;
+  @apply h-32 bg-pochita-card bg-cover rounded-lg hover:scale-125 border-black border-solid border-4;
 }
 .card6 {
-  @apply h-32 bg-himeno-card bg-cover rounded-lg hover:scale-125;
+  @apply h-32 bg-himeno-card bg-cover rounded-lg hover:scale-125 border-black border-solid border-4;
 }
 .card7 {
-  @apply h-32 bg-aki-card bg-cover rounded-lg hover:scale-125;
+  @apply h-32 bg-aki-card bg-cover rounded-lg hover:scale-125 border-black border-solid border-4;
 }
 .card8 {
-  @apply h-32 bg-kobeni-card bg-cover rounded-lg hover:scale-125;
+  @apply h-32 bg-kobeni-card bg-cover rounded-lg hover:scale-125 border-black border-solid border-4;
 }

@@ -4,7 +4,6 @@ import styles from "./card.module.css";
 export default function Card(props) {
   const [isMain, setMain] = useState(true);
   const x = () => (isMain ? "card" : "card" + props.id);
-  console.log(isMain);
   return (
     <div
       className={styles[x()]}
