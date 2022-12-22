@@ -10,6 +10,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
+        "pochita-bg": "url('/src/ui/atoms/card/backgrounds/background.jpg')",
         "card-main": "url('/src/ui/atoms/card/backgrounds/main.jpg')",
         "makima-card": "url('/src/ui/atoms/card/backgrounds/1.jpg')",
         "reze-card": "url('/src/ui/atoms/card/backgrounds/2.jpg')",
