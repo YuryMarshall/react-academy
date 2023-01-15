@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              projectgrey: "#e5e7eb",
+              projectgreyd: "#696969",
+              pjojectwhite: "#fcfbfa",
+              projectblack: "#27272a",
+              lavender: "#7e3af2",
+              backgroundo: "#fea07a",
+              backgroundb: "#339bfe",
+              alertred: "#e02424",
+            },
+            backgroundImage: {
+              background: "url('/project1/img/photo.png')",
+              backgroundtabl: "url('/project1/img/phototablet.png')",
+              touch: "url('/project1/img/touch.svg')",
+              fullscr: "url('/project1/img/photofullscr.png')",
+            },
+            lineHeight: {
+              small: "21px",
+            },
+          },
+          fontFamily: {
+            montser: ["Montserrat"],
+          },
+        },
+      };
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/project1/styles.css" />
+    <title>Project1</title>
+  </head>
+  <body class="bg-pjojectwhite">
+    <header
+      class="flex h-16 border-b border-projectgrey mb-7 relative sm:h-16 sm:mb-11 lg:mb-0"
+    >
+      <a class="ml-4 mt-auto mb-auto lg:ml-[85px]"
+        ><img src="/project1/img/Logo.svg"
+      /></a>
+      <nav class="mt-auto mb-auto absolute right-3.5 top-[22px] sm:hidden">
+        <img src="/project1/img/burger.svg" />
+      </nav>
+      <nav class="absolute right-0 top-0">
+        <ul
+          class="flex font-montser text-base font-semibold mr-10 mt-5 mb-5 hidden sm:flex lg:mr-[85px]"
+        >
+          <li class="mr-6 hover:text-lavender focus:text-lavender">
+            <a href="#main">Main</a>
+          </li>
+          <li class="mr-6 hover:text-lavender focus:text-lavender">
+            <a href="#about">About</a>
+          </li>
+          <li class="hover:text-lavender focus:text-lavender">
+            <a href="#touch">Get in touch</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section
+      class="mb-12 bg-background bg-right-bottom bg-no-repeat sm:bg-backgroundtabl sm:mb-20 lg:bg-fullscr lg:pt-40"
+    >
+      <h1
+        class="font-montser font-bold text-2xl text-projectblack mb-2 ml-4 mr-4 sm:text-6xl sm:mx-10 lg:ml-[85px]"
+        id="main"
+      >
+        Hey, I’m Nick
+      </h1>
+      <h2
+        class="font-montser text-projectgreyd text-sm relative after:content-[''] after:bg-lavender after:absolute after:w-6 after:h-1 after:left-0 after:top-14 h-14 mb-6 ml-4 mr-4 sm:text-xl sm:mb-4 sm:mx-10 lg:mb-[116px] lg:after:top-[126px] lg:h-auto lg:ml-[85px]"
+      >
+        Frontend developer
+      </h2>
+      <p
+        class="font-montser text-sm text-projectgreyd mb-7 ml-4 mr-4 w-72 sm:w-[445px] sm:mb-11 sm:mx-10 lg:mb-[60px] lg:ml-[85px]"
+      >
+        Help you to create high-quality digital<br class="hidden sm:block" />
+        products that your clients will love <br class="sm:hidden" />and let
+        <br class="hidden sm:block" />
+        your business thrive
+      </p>
+      <div class="h-[264px]">
+        <button
+          class="font-montser bg-lavender text-white pt-2 pb-2 pl-3.5 pr-9 rounded-full font-semibold text-sm relative after:content-[''] after:absolute after:w-4 after:h-4 after:bg-touch after:bg-no-repeat after:bottom-2 after:right-3.5 ml-4 hover:scale-110 active:scale-90 sm:text-base sm:pt-3 sm:pb-3 sm:pl-6 sm:pr-16 sm:after:bottom-3.5 sm:after:right-7 sm:mx-10 lg:ml-[85px]"
+        >
+          Get in touch
+        </button>
+      </div>
+    </section>
+    <section class="static mb-[100px]">
+      <h1
+        class="font-montser font-semibold text-xl text-projectblack mb-1 ml-4 mr-4 mb-9 leading-[30px] sm:font-bold sm:text-3xl sm:mb-20 sm:mx-10 lg:ml-[85px]"
+        id="about"
+      >
+        About me
+      </h1>
+      <div class="sm:flex sm:mx-10">
+        <img
+          src="/project1/img/devphoto.png"
+          alt="photo eclipse"
+          class="ml-[15px] mr-[15px] mb-[60px] sm:mb-16 lg:w-[412px] lg:mr-40 lg:mb-20 lg:ml-[85px]"
+        />
+        <div class="mt-auto mb-auto pb-4 pt-4">
+          <p
+            class="ml-[15px] mr-[15px] mb-12 font-montser font-semibold text-sm text-projectgreyd font-normal relative after:content-[''] after:bg-lavender after:absolute after:w-6 after:h-1 after:left-0 after:top-[-24px] sm:font-semibold sm:text-xl lg:font-normal lg:mb-16 lg:ml-[85px]"
+          >
+            <b class="text-black">Nick Richardson</b> - specialist in<br
+              class="hidden sm:block lg:hidden"
+            />
+            Frontend <br class="hidden lg:block" />
+            development.<br class="hidden sm:block lg:hidden" />
+            Clear code is my passion.<br class="hidden sm:block" />
+            Solving issues through negotiations
+          </p>
+          <button
+            class="hidden ml-4 font-montser bg-lavender text-white pt-3 pb-3 pl-6 pr-16 rounded-full font-semibold text-base relative after:content-[''] after:absolute after:w-4 after:h-4 after:bg-touch after:bg-no-repeat after:bottom-3.5 after:right-7 hover:scale-110 active:scale-90 sm:block lg:ml-[85px]"
+          >
+            Get in touch
+          </button>
+        </div>
+      </div>
+      <div class="lg:flex">
+        <div class="mr-[217px]">
+          <h1
+            class="font-montser font-semibold text-xl text-projectblack ml-4 mr-4 mb-9 leading-[30px] mb-7 sm:font-bold sm:text-2xl sm:mb-11 sm:mx-10 lg:mr-0 lg:ml-[85px]"
+          >
+            Interests
+          </h1>
+          <div class="ml-4 mr-4 mb-12 sm:mb-20 sm:mx-10 lg:mr-0 lg:ml-[85px]">
+            <div>
+              <div class="flex mb-6 sm:mb-11 lg:mb-11">
+                <img src="/project1/img/music.svg" class="mr-2" />
+                <div class="flex flex-col justify-between py-2 sm:py-0">
+                  <h3 class="font-montser font-semibold text-sm sm:text-xl">
+                    Music
+                  </h3>
+                  <p class="font-montser font-normal text-sm sm:text-xl">
+                    Indie rock | Reggae
+                  </p>
+                </div>
+              </div>
+              <div class="flex mb-6 sm:mb-11 lg:mb-11">
+                <img src="/project1/img/art.svg" class="mr-2" />
+                <div class="flex flex-col justify-between py-2 sm:py-0">
+                  <h3 class="font-montser font-semibold text-sm sm:text-xl">
+                    Art
+                  </h3>
+                  <p class="font-montser font-normal text-sm sm:text-xl">
+                    Edvard Munch | Frida Kahlo
+                  </p>
+                </div>
+              </div>
+              <div class="flex">
+                <img src="/project1/img/photography.svg" class="mr-2" />
+                <div class="flex flex-col justify-between py-2 sm:py-0">
+                  <h3 class="font-montser font-semibold text-sm sm:text-xl">
+                    Photography
+                  </h3>
+                  <p class="font-montser font-normal text-sm sm:text-xl">
+                    Portraits
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h1
+            class="font-montser font-semibold text-xl text-projectblack ml-4 mb-7 sm:text-2xl sm:mb-11 sm:mx-10"
+          >
+            Education & Experience
+          </h1>
+          <div class="ml-4 mr-4 mb-12 sm:mx-10 sm:mb-32">
+            <div>
+              <div
+                class="flex mb-6 justify-between border-b border-projectgrey pb-3 sm:justify-start"
+              >
+                <p
+                  class="font-montser font-normal text-sm break-normal sm:text-xl sm:mr-4"
+                >
+                  2008 - Present
+                </p>
+                <div class="w-1/2">
+                  <h3 class="font-montser font-semibold text-sm sm:text-xl">
+                    Middle Frontend developer
+                  </h3>
+                  <p class="font-montser font-normal text-sm sm:text-xl">
+                    Ozon
+                  </p>
+                </div>
+              </div>
+              <div
+                class="flex mb-6 justify-between border-b border-projectgrey pb-3 sm:justify-start"
+              >
+                <p
+                  class="font-montser font-normal text-sm break-normal sm:text-xl w-[152px] sm:mr-4"
+                >
+                  2006 - 2007
+                </p>
+                <div class="w-1/2">
+                  <h3 class="font-montser font-semibold text-sm sm:text-xl">
+                    Junior Frontend developer
+                  </h3>
+                  <p class="font-montser font-normal text-sm sm:text-xl">
+                    Facebook
+                  </p>
+                </div>
+              </div>
+              <div
+                class="flex justify-between border-b border-projectgrey pb-3 sm:justify-start"
+              >
+                <p
+                  class="font-montser font-normal text-sm break-normal sm:text-xl w-[152px] sm:mr-4"
+                >
+                  2000 - 2005
+                </p>
+                <div class="w-1/2">
+                  <h3 class="font-montser font-semibold text-sm sm:text-xl">
+                    Frontend developer
+                  </h3>
+                  <p class="font-montser font-normal text-sm sm:text-xl">
+                    Stanford University
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="ml-4 font-montser bg-lavender text-white pt-2 pb-2 pl-3.5 pr-9 rounded-full font-semibold text-sm relative after:content-[''] after:absolute after:w-4 after:h-4 after:bg-touch after:bg-no-repeat after:bottom-2 after:right-3.5 hover:scale-110 active:scale-90 sm:hidden"
+      >
+        Get in touch
+      </button>
+    </section>
+    <section
+      class="bg-gradient-to-b from-backgroundo via-[#c3e3d6] to-backgroundb pt-16 pb-16 pr-2.5 pl-2.5 flex justify-center"
+    >
+      <div
+        class="h-[625px] bg-white rounded-2xl pt-12 pb-12 flex flex-col items-center sm:h-[567px] sm:w-[712px] sm:block sm:py-12 sm:px-8"
+      >
+        <h1
+          class="font-montser font-semibold text-xl text-projectblack ml-1.5 mr-1.5 mb-9 sm:font-bold sm:text-[32px] sm:mb-12"
+          id="touch"
+        >
+          Let’s discuss your project
+        </h1>
+        <form class="mx-5 sm:mx-0">
+          <div class="sm:flex justify-between">
+            <div class="sm:mr-6">
+              <h3
+                class="font-montser font-semibold text-sm text-projectblack mb-2 after:content-['*'] after:text-alertred sm:text-base"
+              >
+                Your full name
+              </h3>
+              <div class="relative">
+                <input
+                  type="text"
+                  name="user_name"
+                  placeholder="Name Surname"
+                  required
+                  class="bg-projectwhite pt-3 pb-3 pl-14 pr-5 rounded-2xl font-montser font-normal text-sm mb-6 border border-projectgrey sm:text-base w-[258px] sm:w-[312px]"
+                />
+                <div class="absolute left-6 top-3 sm:top-3.5">
+                  <img src="/project1/img/person.svg" alt="person icon" />
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3
+                class="font-montser font-semibold text-sm text-projectblack mb-2 after:content-['*'] after:text-alertred sm:text-base"
+              >
+                Your email
+              </h3>
+              <div class="relative">
+                <input
+                  type="email"
+                  name="user_email"
+                  placeholder="name@example.com"
+                  required
+                  class="bg-projectwhite pt-3 pb-3 pl-14 pr-5 rounded-2xl font-montser font-normal text-sm border border-alertred sm:text-base w-[258px] sm:w-[312px]"
+                />
+                <div class="absolute left-6 top-3.5 sm:top-4">
+                  <img src="/project1/img/alert.svg" alt="alert icon" />
+                </div>
+                <p
+                  class="mb-[53px] text-alertred text-xs font-semibold sm:text-sm"
+                >
+                  Please fill this mandatory field
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <h3
+            class="font-montser font-semibold text-sm text-projectblack mb-2 sm:text-base"
+          >
+            Tell me about your project
+          </h3>
+          <textarea
+            type="text"
+            name="user_text"
+            placeholder="Add here a general description of your idea and target aim"
+            class="bg-projectwhite pt-3 pl-5 pr-4 rounded-2xl font-montser font-normal text-sm resize-none mb-9 border border-projectgrey w-[258px] h-[122px] sm:w-[648px] sm:mb-12"
+          ></textarea>
+          <button
+            type="submit"
+            class="font-montser bg-lavender text-white pt-2 pb-2 pl-3.5 pr-9 rounded-full font-semibold text-sm relative flex justify-start after:content-[''] after:absolute after:w-4 after:h-4 after:bg-touch after:bg-no-repeat after:bottom-2 after:right-3.5 hover:scale-110 active:scale-90 sm:text-base sm:py-3 ms:pl-6 sm:pr-[61px] sm:after:bottom-[14px] sm:after:right-7"
+          >
+            Submit
+          </button>
+        </form>
+      </div>
+    </section>
+    <footer
+      class="h-16 font-montser font-normal text-sm text-projectgreyd flex items-center sm:pl-[85px]"
+    >
+      © 2022 JetRuby. All Rights Reserved
+    </footer>
+  </body>
+</html>
