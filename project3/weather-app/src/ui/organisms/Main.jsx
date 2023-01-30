@@ -75,9 +75,7 @@ function Main() {
     <div className={styles.main}>
       <div className={styles.weather__container}>
         <div className={styles.your__location__container}>
-          <h1 className="text-white mb-4 relative  before:content-[''] before:bg-geolocation before:bg-no-repeat before:bg-contain before:block before:w-5 before:h-5 before:absolute before:left-[-24px] before:top-0.5 sm:text-xl sm:before:w-5 sm:before:h-5 sm:before:left-[-26px] sm:before:top-[5px] lg:text-3xl lg:before:w-7 lg:before:h-7 lg:before:left-[-30px] lg:mb-20">
-            Your location:
-          </h1>
+          <h1 className={styles.title}>Your location:</h1>
           <GeoByIp />
         </div>
         <div className={styles.custom__location__container}>

@@ -12,7 +12,7 @@ For correct developing please remove `<React.StrictMode>` and left only `<App />
 `Tailwind`
 `Eslint`
 `Prettier`
-[OpenWeather API](https://openweathermap.org/)
-[IpGeolocation API](https://ipgeolocation.io/)
+`[OpenWeather API](https://openweathermap.org/)`
+`[IpGeolocation API](https://ipgeolocation.io/)`
 
 # Created by Kalashnik Yury as training project for CDG react courses
