@@ -1,0 +1,12 @@
+.main {
+  @apply flex justify-center  items-center bg-bggradient lg:bg-none;
+}
+.weather__container {
+  @apply flex flex-col items-center justify-center sm:flex-row sm:items-start lg:w-5/6;
+}
+.your__location__container {
+  @apply flex flex-col justify-center items-center sm:mr-10 lg:w-1/2;
+}
+.custom__location__container {
+  @apply flex flex-col justify-center items-center lg:w-1/2;
+}
