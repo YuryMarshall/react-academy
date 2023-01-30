@@ -5,7 +5,9 @@
 .input__container {
   @apply sm:flex sm:flex-col sm:justify-center  sm:border-2 sm:border-gray-400 sm:p-10 sm:w-4/6 sm:rounded-3xl lg:flex-row lg:w-auto;
 }
-
+.title {
+  @apply relative text-base mr-auto ml-auto mb-10 text-white font-normal before:content-[''] before:bg-settings before:bg-no-repeat before:bg-contain before:block before:w-4 before:h-4 before:absolute before:left-[-24px] before:top-1 sm:text-xl sm:before:w-5 sm:before:h-5 sm:before:left-[-26px] sm:before:top-[5px] lg:text-3xl lg:before:w-8 lg:before:h-8 lg:before:left-[-38px] lg:before:top-[5px];
+}
 input.switch {
   position: relative;
   -webkit-appearance: none;

@@ -75,13 +75,11 @@ function Main() {
     <div className={styles.main}>
       <div className={styles.weather__container}>
         <div className={styles.your__location__container}>
-          <h1 className={styles.title}>Your location:</h1>
+          <h1 className={styles.ip__title}>Your location:</h1>
           <GeoByIp />
         </div>
         <div className={styles.custom__location__container}>
-          <h1 className="text-white mb-5 relative  before:content-[''] before:bg-world before:bg-no-repeat before:bg-contain before:block before:w-4 before:h-4 before:absolute before:left-[-24px] before:top-1 sm:text-xl sm:before:w-5 sm:before:h-5 sm:before:left-[-26px] sm:before:top-[5px] lg:text-3xl lg:before:w-7 lg:before:h-7 lg:before:left-[-35px] lg:mb-20 ">
-            Custom location:
-          </h1>
+          <h1 className={styles.custom__title}>Custom location:</h1>
           <ByCityName
             cityData={cityData}
             saveCity={saveCity}

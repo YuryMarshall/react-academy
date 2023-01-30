@@ -44,9 +44,7 @@ function MyCities(props) {
 
     return (
       <div className={styles.saved__cities__page}>
-        <h1 className="relative mr-auto ml-auto mb-10  text-white font-normal text-xl before:content-[''] before:bg-save before:bg-no-repeat before:bg-contain before:block before:w-4 before:h-4 before:absolute before:left-[-24px] before:top-[5px] sm:text-xl sm:before:w-5 sm:before:h-5 sm:before:left-[-26px] sm:before:top-[5px] lg:text-3xl lg:before:w-7 lg:before:h-7 lg:before:left-[-35px] ">
-          Saved cities:
-        </h1>
+        <h1 className={styles.title}>Saved cities:</h1>
         <div className={styles.saved__cities__container}>
           <div className={styles.search__container}>
             <CityInput value={inputSearch} handler={inputHandler} />
@@ -56,7 +54,7 @@ function MyCities(props) {
                   <div className={styles.search__container__city} key={index}>
                     <p onClick={showCity}>{citiesArr[index]}</p>
                     <div
-                      className="absolute top-4 right-2 font-bold h-4 w-4 bg-delete bg-no-repeat bg-contain"
+                      className={styles.delete__button}
                       onClick={delCity}
                       id={citiesArr[index]}
                     ></div>

@@ -10,11 +10,11 @@ module.exports = {
         projectblue: "#020d14",
       },
       backgroundImage: {
-        geolocation: "url('ui/atoms/img/geo.png')",
-        world: "url('ui/atoms/img/world.png')",
-        settings: "url('ui/atoms/img/settings.svg')",
-        delete: "url('ui/atoms/img/delete.png')",
-        save: "url('ui/atoms/img/save.png')",
+        geolocation: "url('/src/ui/atoms/img/geo.png')",
+        world: "url('/src/ui/atoms/img/world.png')",
+        settings: "url('/src/ui/atoms/img/settings.svg')",
+        delete: "url('/src/ui/atoms/img/delete.png')",
+        save: "url('/src/ui/atoms/img/save.png')",
         bggradient: "linear-gradient(0deg, #062c45 0%, #020d14 100%)",
       },
       dropShadow: {
