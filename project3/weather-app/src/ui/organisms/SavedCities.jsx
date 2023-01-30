@@ -5,6 +5,7 @@ import SavedCity from "../molecules/GetSavedCity.jsx";
 import CityInput from "../atoms/CitySearchInput.jsx";
 
 import styles from "./styles/savedcities.module.css";
+import "../../App.css";
 
 function MyCities(props) {
   const mySavedCities = localStorage.getItem("savedCities");
@@ -48,7 +49,7 @@ function MyCities(props) {
         <div className={styles.saved__cities__container}>
           <div className={styles.search__container}>
             <CityInput value={inputSearch} handler={inputHandler} />
-            <div className={styles.search__container__cities}>
+            <div id="savedcities" className={styles.search__container__cities}>
               {citiesArr.map((item, index) => {
                 return (
                   <div className={styles.search__container__city} key={index}>

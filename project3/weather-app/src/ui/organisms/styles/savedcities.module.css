@@ -1,5 +1,5 @@
 .saved__cities__page {
-  @apply bg-bggradient min-h-screen flex flex-col justify-center items-center lg:bg-none lg:min-h-min;
+  @apply min-h-screen flex flex-col justify-center items-center lg:bg-none lg:min-h-min;
 }
 .saved__cities__container {
   @apply flex flex-col  items-center lg:flex-row lg:w-4/6;
@@ -8,11 +8,13 @@
   @apply flex flex-col justify-center items-center  lg:mr-20 lg:border-l-2 lg:border-gray-400 lg:pl-10 lg:flex-wrap;
 }
 .search__container__cities {
-  @apply w-full  flex flex-wrap justify-center mb-20 sm:px-10 sm:mb-5  lg:h-96 lg:text-xl lg:block lg:px-5 lg:overflow-y-auto lg:mb-0 lg:py-2 lg:border-2 lg:border-gray-400 lg:rounded-xl;
+  @apply w-full  flex flex-wrap justify-center mb-20  sm:px-10 sm:mb-5  lg:h-96 lg:text-xl lg:block lg:px-5 lg:overflow-y-auto lg:mb-0 lg:py-2 lg:border-2 lg:border-gray-400 lg:rounded-xl lg:scrollbar;
 }
+
 .search__container__city {
   @apply border-2 rounded-2xl text-gray-400 border-gray-400  h-min  mt-2 p-3 mr-3 cursor-pointer relative pr-10 hover:scale-110 active:bg-gray-400 active:text-white;
 }
+
 .saved__city__container {
   @apply flex justify-center sm:w-5/6;
 }

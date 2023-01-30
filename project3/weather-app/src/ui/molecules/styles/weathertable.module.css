@@ -25,3 +25,6 @@
 .save__icon__img {
   @apply h-8 drop-shadow-tempShadow;
 }
+.weather__container__nodata {
+  @apply w-72 h-[500px]   flex flex-col justify-center items-center  text-xl   bg-white bg-opacity-10 rounded-lg mb-20 text-gray-200 p-5 relative sm:mb-3 lg:text-4xl lg:font-bold lg:flex-row lg:justify-center lg:items-center lg:h-[328px] lg:w-full lg:mb-20;
+}

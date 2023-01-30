@@ -1,5 +1,5 @@
 .main {
-  @apply flex justify-center  items-center bg-bggradient lg:bg-none;
+  @apply flex justify-center  items-center  lg:bg-none;
 }
 .weather__container {
   @apply flex flex-col items-center justify-center sm:flex-row sm:items-start lg:w-5/6;
